@@ -42,7 +42,7 @@ Basic Usage:
 ```java
     // Important - Register the MenuListener on enable or before players are able to open them
     MenuListener.getInstance().register(plugin);
-    
+   
     // Create an ItemMenu instance - you only need one of these. Don't create one every time you need it...
     ItemMenu menu = new ItemMenu("Shop", Size.TWO_LINE, plugin);
     
@@ -53,7 +53,7 @@ Basic Usage:
     menu.open(player);
 ```
 Advanced Usage:
-
+```java
     public class ShopMenu extends ItemMenu {
         public ShopMenu(JavaPlugin plugin) {
             super("Shop", Size.TWO_LINE, plugin);
@@ -77,7 +77,7 @@ Advanced Usage:
     subMenu.setParent(mainMenu);
     OR
     ItemMenu subMenu = new ItemMenu("Vote Perks", Size.FIVE_LINE, plugin, mainMenu);
-
+```
 Creating Menu Items:
 
     /**
