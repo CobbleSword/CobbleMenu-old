@@ -79,7 +79,7 @@ Advanced Usage:
     ItemMenu subMenu = new ItemMenu("Vote Perks", Size.FIVE_LINE, plugin, mainMenu);
 ```
 Creating Menu Items:
-
+```java
     /**
     * A MenuItem that makes the player perform the "kill" command
     */
@@ -110,7 +110,7 @@ Creating Menu Items:
             return finalIcon;
         }
     }
-
+```
 Compilation
 -----------
 
