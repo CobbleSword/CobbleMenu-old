@@ -26,11 +26,6 @@ For Developers
 
 If you're using [Maven](http://maven.apache.org/download.html) to manage project dependencies, simply include the following in your `pom.xml`:
 
-    <repository>
-      <id>greatman-repo</id>
-      <url>http://repo.greatmancode.com/content/groups/public/</url>
-    </repository>
-
     <dependency>
       <groupId>dev.cobblesword</groupId>
       <artifactId>CobbleMenu</artifactId>
