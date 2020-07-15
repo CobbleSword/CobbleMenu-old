@@ -2,37 +2,24 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>ninja.amp</groupId>
-    <artifactId>ampmenus</artifactId>
-    <version>1.4-SNAPSHOT</version>
+    <groupId>dev.cobblesword</groupId>
+    <artifactId>CobbleMenu</artifactId>
+    <version>1.5</version>
     <inceptionYear>2014</inceptionYear>
-    <name>AmpMenus</name>
+    <name>CobbleMenus</name>
     <description>An inventory menu library for Bukkit</description>
-
-    <organization>
-        <name>AmpMenus</name>
-        <url>http://github.com/ampayne2/AmpMenus</url>
-    </organization>
-
-    <repositories>
-        <repository>
-            <id>bukkit-repo</id>
-            <url>http://repo.bukkit.org/content/groups/public/</url>
-        </repository>
-    </repositories>
 
     <dependencies>
         <dependency>
-            <groupId>org.bukkit</groupId>
-            <artifactId>bukkit</artifactId>
-            <version>1.7.9-R0.3-SNAPSHOT</version>
-            <type>jar</type>
+            <groupId>dev.cobblesword.nachospigot</groupId>
+            <artifactId>server</artifactId>
+            <version>1.8.8-R0.2-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>
 
     <build>
-        <finalName>AmpMenus</finalName>
+        <finalName>CobbleMenu</finalName>
         <sourceDirectory>src/main/java</sourceDirectory>
         <defaultGoal>clean install</defaultGoal>
         <plugins>
