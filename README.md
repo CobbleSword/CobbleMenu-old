@@ -32,14 +32,14 @@ If you're using [Maven](http://maven.apache.org/download.html) to manage project
     </repository>
 
     <dependency>
-      <groupId>ninja.amp</groupId>
-      <artifactId>ampmenus</artifactId>
-      <version>1.4-SNAPSHOT</version>
+      <groupId>dev.cobblesword</groupId>
+      <artifactId>CobbleMenu</artifactId>
+      <version>1.5</version>
       <scope>compile</scope>
     </dependency>
 
 Basic Usage:
-
+```java
     // Important - Register the MenuListener on enable or before players are able to open them
     MenuListener.getInstance().register(plugin);
     
@@ -51,7 +51,7 @@ Basic Usage:
     
     // Opening the menu for a Player
     menu.open(player);
-
+```
 Advanced Usage:
 
     public class ShopMenu extends ItemMenu {
