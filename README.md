@@ -1,4 +1,4 @@
-AmpMenus
+CobbleMenu (AmpMenus Fork) 
 ========
 
 An object-oriented approach to handling Inventory Menus/GUIs in Bukkit.
